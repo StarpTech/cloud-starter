@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "wunderctl up",
-    "build": "wunderctl generate",
-    "check": "tsc --noEmit",
-    "test": "npm run build && jest"
+    "start": "wunderctl up --debug",
+    "build": "wunderctl generate --debug",
+    "check": "tsc --",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wundergraph/sdk": "0.144.5"
+    "@wundergraph/sdk": "0.134.0"
   },
   "devDependencies": {
     "@jest/globals": "^29.4.3",
