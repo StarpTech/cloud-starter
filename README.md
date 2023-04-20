@@ -2,8 +2,8 @@
 
 A simple starter that consumes the [GraphQL SpaceX API](https://spacex-api.fly.dev/graphql/)
 
-### Getting started dddddqdedewdqweeeddddddddddddddddddddddddd
-
+### Getting started ddd
+d
 ```shell
 npm i && npm start
 ```
