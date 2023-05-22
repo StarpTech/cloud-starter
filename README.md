@@ -4,8 +4,6 @@
 
 A simple starter that consumes the [GraphQL SpaceX API](https://spacex-api.fly.dev/graphql/)
 
-test
-
 ### Getting started locally
 
 ```shell
