@@ -8,6 +8,7 @@ export default configureWunderGraphServer<HooksConfig, InternalClient>(() => ({
       Dragons: {
         postResolve: async (hook) => {
           hook.log.info("postResolve hook for Dragons");
+          console.log("test " + process.env.WG_OTEL_AUTH_TOKEN)
         },
       },
     },
