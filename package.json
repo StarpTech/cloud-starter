@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "wunderctl up",
-    "build": "wunderctl generate",
+    "build": "wunderctl generate && echo \"${WG_OTEL_AUTH_TOKEN}\"",
     "check": "tsc --noEmit",
     "test": "npm run build && jest"
   },
