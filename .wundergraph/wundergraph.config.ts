@@ -8,6 +8,9 @@ import {
 import server from "./wundergraph.server";
 import operations from "./wundergraph.operations";
 
+console.log("test 11 " + process.env.WG_OTEL_AUTH_TOKEN)
+console.log("foo 11 " + process.env.FOO)
+
 const spacex = introspect.graphql({
   apiNamespace: "spacex",
   url: 'https://spacex-api.fly.dev/graphql',
