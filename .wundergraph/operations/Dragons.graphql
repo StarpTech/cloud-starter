@@ -2,9 +2,8 @@ query Dragons {
   spacex_dragons {
     name
     active
-          thrusters {
-              amount
-              pods
-          }
+    thrusters {
+      amount
+    }
   }
 }
