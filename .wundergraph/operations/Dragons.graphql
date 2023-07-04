@@ -4,6 +4,7 @@ query Dragons {
     active
     thrusters {
       amount
+      pods
     }
   }
 }
