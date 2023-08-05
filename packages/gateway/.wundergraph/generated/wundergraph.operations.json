@@ -1,0 +1,11 @@
+{
+"graphql_operation_files": [
+{
+"operation_name": "Dragons",
+"api_mount_path": "Dragons",
+"file_path": "Dragons.graphql",
+"content": "query Dragons {spacex_dragons {name active thrusters {amount pods}}}"
+}
+],
+"typescript_operation_files": null
+}
